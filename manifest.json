@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Travel Companion",
+    "description": "New Tab Extension for frequent flyers!",
+    "version": "1.0",
+    "chrome_url_overrides": {
+        "newtab": "new_tab.html"
+    },
+    "browser_action": {
+    "default_icon": "icon16.png",
+    "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icon16.png"
+    },
+    "permissions": [
+      "activeTab",
+      "storage"
+    ]
+}

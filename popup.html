@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Extension Tester Popup</title>
+    <style type="text/css">
+      body {
+        margin: 10px;
+        white-space: nowrap;
+        line-height: 1.3rem;
+      }
+
+      h1 {
+        font-size: 15px;
+      }
+
+      #container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+   <script type="text/javascript" src="popup.js"></script>
+  </head>
+
+  <body>
+    <h1>Travel selector</h1>
+    <div id="container">
+      <span>Choose travel-type</span>
+      <select id="dropdown">
+        <option id ="Dom">Domestic</option>
+        <option id ="LHInt">International-long</option>
+        <option id ="SHInt">International-short</option>
+        <option id ="NF">Not rn yeh</option>
+      </select>
+    </div>
+  </body>
+
+</html>
